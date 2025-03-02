@@ -4,12 +4,12 @@ import os
 class Config:
     """Central configuration management"""
     # OpenAI Settings
-    OPENAI_API_KEY = "sk-proj-tORFJT8LTB3HXE5J8Q9MT3BlbkFJoMLiwpgYGhENaZHsoXJr"
+    OPENAI_API_KEY = "OPEN_API_KEY"
     GPT_MODEL = "gpt-4o"
     MAX_TOKENS = 3000
     
     # ChromaDB Settings
-    CHROMA_BASE_PATH = "/Users/ranatuqeerabbas/Desktop/chromadb_data"
+    CHROMA_BASE_PATH = "Your_PATH"
     COLLECTION_SETTINGS = {"hnsw:space": "cosine"}
     
     # Collection Names
